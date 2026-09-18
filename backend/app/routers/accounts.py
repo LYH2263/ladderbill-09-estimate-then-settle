@@ -18,4 +18,5 @@ def get_account(account_id: int):
         if not row:
             raise HTTPException(404, "account not found")
         readings = svc.readings_for_account(account_id)
-        return {"account": row, "readings": readings}
+        settlements = svc.settlements_for_account(account_id)
+        return {"account": row, "readings": readings, "settlements": settlements}
