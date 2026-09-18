@@ -3,6 +3,7 @@ import Dashboard from './pages/Dashboard.vue'
 import AccountList from './pages/AccountList.vue'
 import AccountDetail from './pages/AccountDetail.vue'
 import Workbench from './pages/Workbench.vue'
+import EstimateSettle from './pages/EstimateSettle.vue'
 import TierRules from './pages/TierRules.vue'
 import PeakCompare from './pages/PeakCompare.vue'
 import RunHistory from './pages/RunHistory.vue'
@@ -15,6 +16,7 @@ export default createRouter({
     { path: '/accounts', component: AccountList },
     { path: '/accounts/:id', component: AccountDetail },
     { path: '/workbench', component: Workbench },
+    { path: '/estimate', component: EstimateSettle },
     { path: '/tiers', component: TierRules },
     { path: '/compare', component: PeakCompare },
     { path: '/history', component: RunHistory },

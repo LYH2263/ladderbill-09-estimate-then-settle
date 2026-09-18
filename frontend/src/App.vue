@@ -7,6 +7,7 @@
       <router-link to="/">总览</router-link>
       <router-link to="/accounts">户号</router-link>
       <router-link to="/workbench">测算台</router-link>
+      <router-link to="/estimate">估计结算</router-link>
       <router-link to="/tiers">阶梯表</router-link>
       <router-link to="/compare">尖峰对比</router-link>
       <router-link to="/history">记录</router-link>
